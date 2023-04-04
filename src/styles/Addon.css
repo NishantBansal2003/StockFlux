@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.container {
+  margin-top: 10vh;
+
+  margin-bottom: 10vh;
+}
+.uk-flex {
+  display: flex;
+  padding: 10px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+.logo-addon {
+  padding: 20px;
+}
+.cards-2 p,
+.cards-1 p {
+  color: black;
+}
+a {
+  color: #adb5bd;
+}
+.cards-1 {
+  display: flex;
+  position: relative;
+}
+.cards-2 {
+  display: flex;
+  position: relative;
+  top: 4vh;
+}

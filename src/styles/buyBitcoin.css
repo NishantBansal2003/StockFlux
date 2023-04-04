@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.buyFlex {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+}
+.small-text {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #bf3654;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.adjust-text {
+  margin-left: 10vw;
+}
+.section_header {
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 0.85;
+  margin-bottom: 30px;
+  position: relative;
+  word-wrap: break-word;
+
+  font-family: "Roboto", sans-serif;
+}
+.section_header span {
+  font-size: 4vw;
+}
+.styleSpan {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2vw;
+}
+.theme_button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  display: inline-block;
+  width: 12vw;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  background-color: #bf3654;
+  padding: 20px;
+  border-radius: 40px;
+}
+.theme_button:hover {
+  background-color: red;
+}

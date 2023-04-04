@@ -1,0 +1,28 @@
+.uk-section {
+  margin-top: 10vh;
+  background-image: url(https://www.indonez.com/html-demo/Liquid/img/in-liquid-3-bg.png);
+}
+.uk-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.uk-label {
+  color: red;
+}
+.uk-para {
+  color: black;
+}
+.uk-heading {
+  font-weight: bolder;
+}
+.uk-first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.uk-first-column p {
+  color: black;
+}

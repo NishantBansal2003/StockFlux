@@ -1,0 +1,97 @@
+.circle-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .Circular-imgae {
+    background-image: url(http://webdesign-finder.com/coinster/wp-content/uploads/2017/11/advantages.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .circle-wrapper div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.5;
+  }
+  .circle-wrapper p {
+    color: #808080;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+  .circle-wrapper h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+    font-family: inherit;
+  }
+  .circle-wrapper svg {
+    box-sizing: border-box;
+    font-family: "rt-icons-2" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .deg-0 {
+    position: relative;
+    left: 22vw;
+    top: -18vw;
+  }
+  
+  .deg-45 {
+    position: relative;
+    left: 0vw;
+    top: -2vw;
+  }
+  
+  .deg-90 {
+    position: relative;
+    left: -14vw;
+    top: 15vw;
+  }
+  
+  .deg-135 {
+    position: relative;
+    right: -15vw;
+    top: -18vw;
+  }
+  
+  .deg-180 {
+    position: relative;
+    right: -4vw;
+    top: -2vw;
+  }
+  
+  .deg-225 {
+    position: relative;
+    right: 15vw;
+    top: 15vw;
+  }
+  .deg-45 svg,
+  .deg-180 svg {
+    color: #fab915;
+  }
+  .deg-0 svg,
+  .deg-135 svg {
+    color: #bf3654;
+  }
+  .deg-90 svg,
+  .deg-225 svg {
+    color: #f58770;
+  }
+  

@@ -1,0 +1,197 @@
+/* reset css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+.bg-news {
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-family: "Merriweather", serif;
+}
+.info-detail {
+  display: flex;
+  /* flex-direction: row; */
+
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header */
+header {
+  font-weight: 100;
+  margin: 0 auto 20px;
+  color: #fff;
+}
+
+header a {
+  color: #015c91;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  /* background-color: #fff; */
+  /* height: 200px; */
+  height: 340px;
+  padding: 1rem;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.card-one {
+  background-image: url(" https://source.unsplash.com/1600x500/?stock");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.card-two {
+  background-image: url(" https://source.unsplash.com/1600x500/?bitcoin");
+  background-size: cover;
+  background-position: center;
+}
+.card-three {
+  background-image: url(" https://source.unsplash.com/1600x500/?funds");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.card-four {
+  background-image: url(" https://source.unsplash.com/1600x500/?bonds");
+  background-size: cover;
+  background-position: center;
+}
+
+/* top */
+.top {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+
+.actions i {
+  margin-left: 0.5em;
+  transition: transform 200ms ease-in-out;
+}
+
+.actions i:hover {
+  cursor: pointer;
+  transform: scale(1.2) translatey(-0.2em);
+}
+
+/* bottom */
+.bottom {
+  position: relative;
+  z-index: 1;
+  transform: translateY(40%);
+  transition: transform 500ms ease;
+}
+
+.bottom::after {
+  /*   outline: 1px solid tomato; */
+  z-index: -1;
+  content: "";
+  position: absolute;
+  bottom: -1em;
+  left: -1em;
+  right: 0;
+  width: calc(100% + 2rem);
+  height: calc(100% + 5rem);
+  background: linear-gradient(to top, rgba(0 0 0 / 0.9), rgba(0 0 0 / 0));
+}
+
+.bottom:hover,
+.bottom:hover::after {
+  transform: translateY(0);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+
+.author-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.bottom h1 {
+  display: inline-block;
+  font-size: 2.5em;
+  position: relative;
+  margin-bottom: 0.3em;
+}
+
+.bottom h1::after {
+  position: absolute;
+  content: "";
+  bottom: -0.2em;
+  left: -2rem;
+  width: calc(100% + 2rem);
+  height: 0.1em;
+  background-color: #8aeef1;
+  transform: scaleX(0);
+  transition: transform 600ms ease;
+  transform-origin: right;
+}
+
+.bottom:hover h1::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text p {
+  font-weight: 100;
+}
+
+.text button {
+  font-size: 0.8em;
+  padding: 0.5em 0.8em;
+  margin-top: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: rgba(0 0 0/ 0.8);
+  background-color: #8aeef1;
+}
+
+.text button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4a7e80;
+}
+.align {
+  position: relative;
+  left: -35vw;
+  font-family: "Poppins", sans-serif;
+  color: #495057;
+  top: 12px;
+}

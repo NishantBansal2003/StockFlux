@@ -1,0 +1,72 @@
+.col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.fwmainverify {
+  background-color: #f6f7f9;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.teaser .big_wrapper {
+  height: 170px;
+  width: 170px;
+}
+.teaser .dashed_border {
+  background-image: url("https://webdesign-finder.com/coinster/wp-content/themes/coinster/img/round_dashed_border.png");
+}
+.ls .highlight,
+.ls .highlight1 {
+  border-color: #bf3654;
+  color: #bf3654;
+}
+.size_small {
+  font-size: 32px;
+}
+.teaser_icon {
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.round {
+  border-radius: 50%;
+}
+.highlight3 {
+  border-color: #f58770;
+  color: #f58770;
+}
+.ls .highlight2 {
+  border-color: #fab915;
+  color: #fab915;
+}
+
+.teaser {
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.step_teaser h4 {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+.step_teaser p {
+  text-align: center;
+  color: gray;
+  font-family: "Raleway", sans-serif;
+}
+.verifyA a {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  cursor: pointer;
+}
