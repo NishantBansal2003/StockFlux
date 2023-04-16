@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url('signin-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px 20px #012554 ;
+  }
+  
+  .sign{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.2rem;
+  }
+  
+  .log{
+    padding: 0 1.2rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .noaccount, .account{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #012554;
+  }
+  
+  .mark{
+    color: black;
+  }
+  
+  .login, .signin{
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    border-radius: 100px;
+    border: none;
+    background-color: #00A5E0;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-style: oblique;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .login:hover, .signin:hover{
+    background-color: white;
+    border: 0.12rem solid #023e8a;
+    outline: 0.25rem solid #023e8a;
+    outline-offset: 0.2rem;
+    color: #023e8a;
+  }
+  
+  .signinbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00A5E0;
+    border-radius: 10px;
+    z-index: 5;
+    top: 50%;
+    right: 50%;
+    width: 20rem;
+    flex-direction: column;
+    height: 22rem;
+    margin-left: 25rem;
+    margin-right: 2rem;
+    transform: translateY(-18.5rem);
+    padding: 1rem 0;
+    box-shadow: inset 0px 0px 50px 20px #0355c1,
+     0px 0px 200px 20px #0355c1;
+     border-top-left-radius: 50%;
+     border-bottom-right-radius: 40%;
+  }
+  
+  .info{
+    margin: 0 1rem;
+    color: #012554;
+    font-weight: 900;
+  }
+  
+  .username, .password{
+    background-color: rgba(255,255,255, 0.5);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    width: 12rem;
+    margin: 0.6rem 0;
+  }
+  
+  .sign-in{
+    padding: 0.25rem 1rem;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    background-color: #012554;
+    color: white;
+    transform: scale(1);
+    transition: 0.5s;
+    margin-bottom: 0.25rem;
+  }
+  
+  .sign-in:hover{
+    color: #012554;
+    background-color: white;
+    transform: scale(1.2);
+    font-weight: 900;
+  }
+  
+  .apps{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .google,.facebook,.linkedin{
+    background-color: rgba(255,255,255, 0.75);
+    padding: 0.25rem 1rem;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+  
+  .google:hover{
+    background-color: red;
+    color: white;
+  }
+  
+  .facebook:hover{
+    background-color: #012554;
+    color: white;
+  }
+  
+  .linkedin:hover{
+    background-color: #0355c1;
+    color: white;
+  }
+  
+  
+  
+  

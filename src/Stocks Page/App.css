@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    color: #d00000;
+    width: 6vw;
+    height: 100vh;
+    border-radius: 10px;
+    margin-right: 1vw;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.activity:hover,.person:hover,.tools:hover,.graph:hover{
+    background-color: #6a040f;
+    scale: 1.2;
+}
+
+.activity,.person,.tools,.graph{
+    padding: 0.4rem;
+    border-radius: 50%;
+    scale: 1;
+}
+
+.container{
+    position: absolute;
+    background-color: #f9060e2e;
+    height: 50vh;
+    width: 70vw;
+    top: 10%;
+    left: 1vw;
+    border-radius: 10px ;
+    margin: 0.25rem;
+}
+
+
+
+.big{
+    position: absolute;
+    height: 98vh;
+    width: 94vw;
+    background-color: rgba(255, 255, 255, 0.05);
+    left: 5vw;
+    border-radius: 10px;
+    top: 0%;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.grid{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 73vw;
+    height: 35vh;
+    bottom: 2%;
+    z-index: 100;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0.5rem;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0.5rem;
+}
+
+.google{
+    background-color: #6a040e61;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 10px #8a0202;
+}
+.apple{
+    background-color: #6a040e61;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 5px #8a0202;
+}
+
+.twitter{
+    background-color: #6a040e61;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 5px #8a0202;
+}
+
+.microsoft{
+    background-color: #6a040e61;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 5px #8a0202;
+}
+
+.bmw{
+    background-color: #6a040e61;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 5px #8a0202;
+}
+
+.benz{
+    background-color: #6a040e57;
+    width: 22vw;
+    height: 15vh;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 400px 5px #8a0202;
+}
+
+.perform{
+    position: absolute;
+    height: 65vh;
+    width: 20vw;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+
+}
+
+.nothing{
+    background: linear-gradient(to left, #d00000,#6a040e57 );
+    width: 20vw;
+    height: 6vh;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.nothing:hover{
+    transition: 0.5s;
+    background: linear-gradient(to right, #d00000,#6a040e57 );
+}
+
+.title{
+    color: white;
+    width: 20vw;
+    margin-bottom: 0;
+}
+
+.google:hover,.twitter:hover,.microsoft:hover,.bmw:hover,.benz:hover,.apple:hover{
+    transition: 0.2s;
+    border: 0.1rem solid #d00000;
+}
+
+.container:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    border: 0.1rem solid #d00000;
+}
+
+.downbar{
+    position: absolute;
+    height: 35vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    right: 3%;
+    bottom: 2%;
+}
+
+.money{
+    height: 5vh;
+    width: 20vw;
+    background-color: #4b030a39;
+    border-radius: 6px;
+}
+
+.amount{
+    height: 8vh;
+    width: 20vw;
+    background-color: #4b030a39;
+    border-radius: 6px;
+}
+
+.amount:hover,.money:hover{
+    cursor: pointer;
+    background-color: #6a040e61;
+}
+
+.balance{
+    color: white;
+    margin: 0;
+    width: 20vw;
+}
+
+.invest,.gain,.loss{
+    color: #ff770083;
+    margin: 0;
+}
+
+.sell{
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: #d00000;
+    color: white;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.sell:hover{
+    background-color: rgb(247, 216, 216);
+    color: #d00000;
+}
